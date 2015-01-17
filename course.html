@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenStax</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" >
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"></a>
+            <div class="logged-in">
+                <img src="images/avatar-andrew.jpg"> Andrew
+            </div>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Read</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Review</a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>-->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="container-fluid">
+        <div class="row text-center">
+        	<a href="course.html">Course Info</a> | <a href="units.html">Units</a> | Roster
+            <h1 class="text-center">Course Information</h1>
+            <form name="course-information">
+                <input type="text" placeholder="Course Name">
+                <br>
+                <input type="checkbox">  <label for="Block Schedule">Block Schedule</label>
+                <hr>
+                <input type="text" placeholder="Class Period One">
+                <br>
+                <input type="text" placeholder="Class Period Two">
+                <br>
+                <div class="add-item ai-ci">
+                	<div>
+                    	<i class="glyphicon glyphicon-plus"></i><span>Add Class Period</span>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <select>
+                    <option value="">Time Zone</option>
+                    <option value="Eastern">Eastern</option>
+                    <option value="Central">Central</option>
+                    <option value="Mounatin">Mountain</option>
+                    <option value="Pacific">Pacific</option>
+                </select>
+                <br>
+                <h3>Tutor Options</h3>
+                <h4>Learning Optimized Practice Schedule</h4>
+                <p>Homework problems on a particular topic will be distributed through several homework assignments, which strengthens learning and retention of information.</p>
+                <h4>Include Personlized Homework Problems</h4>
+                <p>You choose problems every student will work and the system will add some personalized problems based on that student’s past performance.</p>
+                <hr>
+                <button class="btn btn-primary" type="button">Next</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
